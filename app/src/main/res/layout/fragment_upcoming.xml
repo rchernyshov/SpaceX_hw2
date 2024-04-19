@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".frafments.FragmentUpcoming"
+    android:orientation="vertical">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvNameLaunchDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="53dp"
+            android:layout_weight="1"
+            android:text="Launch Date"
+            android:textAllCaps="true"
+            android:textColor="@color/pink"
+            android:fontFamily="@font/google_sans_medium"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/tvLaunchDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:layout_marginLeft="27dp"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:fontFamily="@font/google_sans_medium"
+            android:text="Thu Oct 17 5:30:00 2019" />
+
+        <TextView
+            android:id="@+id/tvNameLaunchSite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            android:text="Launch Site"
+            android:textAllCaps="true"
+            android:textColor="@color/pink"
+            android:fontFamily="@font/google_sans_medium"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/tvLaunchSite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:layout_marginLeft="27dp"
+            android:layout_marginRight="32dp"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:fontFamily="@font/google_sans_medium"
+            android:text="Cape Canaveral Air Force Station Space Launch Complex 40" />
+
+        <TextView
+            android:id="@+id/tvNameCountDown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="11dp"
+            android:layout_weight="1"
+            android:text="COUNT DOWN"
+            android:textAllCaps="true"
+            android:textColor="@color/pink"
+            android:fontFamily="@font/google_sans_medium"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/tvCountDown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:layout_marginLeft="27dp"
+            android:layout_marginRight="32dp"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:fontFamily="@font/google_sans_medium"
+            android:text="5 Hrs 30mins more..." />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
